@@ -1,0 +1,219 @@
+main{
+    .contenedorNinios{
+        width: 100%;
+        height: 1400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #0000;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.856), rgba(0, 0, 0, 0.753)), url(../img/patronnovedades.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        .tituloCardN{
+            display: flex;
+            width: 100%;
+            height: 100px;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 50px;
+            h2{
+                text-transform: uppercase;
+                color: #FFFF;
+                background-color: #f6f8f84f;
+                font-size: 45px;
+                padding: 10px 20px;
+                background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212));
+            }
+        }
+        .contenedorCardNGrid{
+            display: grid;
+            width: 100%;
+            height: 1200px;
+            grid-template-columns: repeat(3,1fr);
+            grid-auto-rows: auto;
+            background-color: #f6f8f84f ;
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212));
+            column-gap: 10px;
+            justify-items: center;
+            align-items: center;
+            div{
+                display: flex;
+                flex-direction: column;
+                justify-content:space-between;
+                align-items: center;
+                background-color: #FFFF;
+                border: 1px solid #000000;
+                width: 350px;
+                height: 430px;
+                box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212));
+                transition: 1s linear;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+            .cardN1{
+                grid-column: 1/2;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                img{
+                    width: 340px;
+                    height: 270px;
+                }
+                h3{
+                    text-transform: uppercase;
+                    font-size: 20px;
+                }
+                p{
+                    padding: 0 20px;
+                    margin-bottom: 0;
+                }
+                a{
+                    padding: 4px 20px;
+                    margin: 5px 0px;
+                    background-color: #7FBCD2;
+                    color: #FFFF;
+                    border-radius: 8px;
+                    text-decoration: none;
+                }
+            }
+            .cardN2{
+                grid-column: 2/3;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                img{
+                    width: 340px;
+                    height: 270px;
+                }
+                h3{
+                    text-transform: uppercase;
+                    font-size: 20px;
+                }
+                p{
+                    padding: 0 20px;
+                    margin-bottom: 0;
+                }
+                a{
+                    padding: 4px 20px;
+                    margin: 5px 0px;
+                    background-color: #7FBCD2;
+                    color: #FFFF;
+                    border-radius: 8px;
+                    text-decoration: none;
+                }
+            }
+            .cardN3{
+                grid-column: 3/4;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                img{
+                    width: 340px;
+                    height: 270px;
+                }
+                h3{
+                    text-transform: uppercase;
+                    font-size: 20px;
+                }
+                p{
+                    padding: 0 20px;
+                    margin-bottom: 0;
+                }
+                a{
+                    padding: 4px 20px;
+                    margin: 5px 0px;
+                    background-color: #7FBCD2;
+                    color: #FFFF;
+                    border-radius: 8px;
+                    text-decoration: none;
+                }
+            }
+            .cardN4{
+                grid-column: 1/2;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                img{
+                    width: 340px;
+                    height: 270px;
+                }
+                h3{
+                    text-transform: uppercase;
+                    font-size: 20px;
+                }
+                p{
+                    padding: 0 20px;
+                    margin-bottom: 0;
+                }
+                a{
+                    padding: 4px 20px;
+                    margin: 5px 0px;
+                    background-color: #7FBCD2;
+                    color: #FFFF;
+                    border-radius: 8px;
+                    text-decoration: none;
+                }
+            }
+            .cardN5{
+                grid-column: 2/3;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                img{
+                    width: 340px;
+                    height: 270px;
+                }
+                h3{
+                    text-transform: uppercase;
+                    font-size: 20px;
+                }
+                p{
+                    padding: 0 20px;
+                    margin-bottom: 0;
+                }
+                a{
+                    padding: 4px 20px;
+                    margin: 5px 0px;
+                    background-color: #7FBCD2;
+                    color: #FFFF;
+                    border-radius: 8px;
+                    text-decoration: none;
+                }
+            }
+            .cardN6{
+                grid-column: 3/4;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                img{
+                    width: 340px;
+                    height: 270px;
+                }
+                h3{
+                    text-transform: uppercase;
+                    font-size: 20px;
+                }
+                p{
+                    padding: 0 20px;
+                    margin-bottom: 0;
+                }
+                a{
+                    padding: 4px 20px;
+                    margin: 5px 0px;
+                    background-color: #7FBCD2;
+                    color: #FFFF;
+                    border-radius: 8px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
