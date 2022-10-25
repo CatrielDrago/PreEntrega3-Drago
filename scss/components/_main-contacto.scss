@@ -1,3 +1,4 @@
+@import "../base/variables";
 main{
     .formulario{
         display: flex;
@@ -14,8 +15,8 @@ main{
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
-            background-color: #7FBCD2;
-            border: 2px solid #FFFF;
+            background-color: $color-principal;
+            border: 2px solid $color-secundario;
             .formularioPresentacionImg{
                 display: flex;
                 justify-content: center;
@@ -42,7 +43,7 @@ main{
                     text-transform: uppercase;
                     font-size: 40px;
                     margin-bottom: 30px;
-                    color: #FFFF;
+                    color: $color-secundario;
                     text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
                 }
                 .formularioPresentacionRedesIconos{
@@ -70,13 +71,13 @@ main{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background-color: #f6f8f84f;
-            border: 2px solid #FFFF;
+            background-color: $color-cuaternario;
+            border: 2px solid $color-secundario;
             background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212));
             h1{
                 text-transform: uppercase;
                 font-size: 40px;
-                color: #FFFF;
+                color: $color-secundario;
                 margin-bottom: 50px;
                 text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
             }
@@ -97,10 +98,10 @@ main{
                     label{
                         font-size: 21px;
                         margin-right: 10px;
-                        color: #7FBCD2;
+                        color: $color-principal;
                     }
                     input{
-                        color: #FFFF;
+                        color: $color-secundario;
                         width: 250px;
                         height: 25px;
                         border: 2px solid black;
@@ -120,7 +121,7 @@ main{
                     h3{
                         text-transform: uppercase;
                         font-size: 25px;
-                        color: #7FBCD2;
+                        color: $color-principal;
                     }
                     .formularioSexoOpciones{
                         display: flex;
@@ -131,7 +132,7 @@ main{
                         label{
                             margin-right: 15px;
                             font-size: 18px;
-                            color: #fff;
+                            color: $color-secundario;
                         }
                         input{
                             margin-right: 15px;
@@ -148,7 +149,7 @@ main{
                     h3{
                         text-transform: uppercase;
                         font-size: 25px;
-                        color: #7FBCD2;
+                        color: $color-principal;
                         margin-bottom: 15px;
                     }
                     textarea{ 
@@ -167,8 +168,8 @@ main{
                     input{
                         width: 100px;
                         height: 30px;
-                        background-color: #7FBCD2;
-                        color: #fff;
+                        background-color: $color-principal;
+                        color: $color-secundario;
                         margin-top: 30px;
                         box-shadow: 0px 11px 17px 0px rgba(0,0,0,0.61);
                         -webkit-box-shadow: 0px 11px 17px 0px rgba(0,0,0,0.61);

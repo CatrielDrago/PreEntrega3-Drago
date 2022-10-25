@@ -16,7 +16,7 @@ footer{
             justify-content: space-around;
             align-items: center;
             h2{
-                color: #7FBCD2;
+                color: $color-principal;
                 text-transform: uppercase;
                 font-size: 30px;
             }
@@ -25,7 +25,7 @@ footer{
                 height: 300px;
             }
             p{
-                color: #7FBCD2;
+                color: $color-principal;
                 text-transform: uppercase;
                 font-size: 15px;
             }
@@ -46,7 +46,7 @@ footer{
                     justify-content: center;
                     align-items: center;
                     h2{
-                        color:#7FBCD2;
+                        color: $color-principal;
                         text-transform: uppercase;
                         font-size: 30px;
                         margin-bottom: 10px;
@@ -58,8 +58,8 @@ footer{
                     .enviarNewsletter{
                         width: 100px;
                         height: 30px;
-                        background-color: #7FBCD2;
-                        color: #fff;
+                        background-color: $color-principal;
+                        color: $color-secundario;
                         margin-top: 30px;
                     }
                 }
@@ -72,7 +72,7 @@ footer{
                 justify-content: center;
                 align-items: center;
                 h2{
-                    color: #7FBCD2;
+                    color: $color-principal;
                     text-transform: uppercase;
                     font-size: 30px;
                     margin-bottom: 10px;
@@ -101,7 +101,7 @@ footer{
         height: 30px;
         background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.830), rgba(0, 0, 0, 0.830));
         p{
-            color: #7FBCD2;
+            color: $color-principal;
             text-transform: uppercase;
             font-size: 12px;
         }
