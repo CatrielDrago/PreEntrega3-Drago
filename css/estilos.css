@@ -16,24 +16,29 @@ main .hero {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  flex-direction: row;
+  width: 100%;
   height: calc(100vh - 100px);
   background-image: url(../img/fondeheader.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
+  main .hero .animate__animated.animate__backInDown {
+    --animate-duration: 2s; }
   main .hero .heroContenedor {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
     height: 557px; }
     main .hero .heroContenedor .heroImg a img {
       height: 350px; }
     main .hero .heroContenedor .heroTitulo {
       display: flex;
-      flex-flow: column wrap;
+      justify-content: center;
       align-items: center;
+      flex-direction: column;
       padding-bottom: 100px; }
       main .hero .heroContenedor .heroTitulo h1 {
         font-size: 35px;
@@ -57,18 +62,19 @@ main .hero {
 
 main .tiendaContenedor {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
   width: 100%;
   height: 500px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.819)), url(../img/patronnovedades.jpg);
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center; }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.819)), url(../img/patronnovedades.jpg); }
   main .tiendaContenedor .tiendaImg1 {
     display: flex;
-    width: 1000px;
-    height: 200px;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    width: 1000px;
+    height: 200px;
     border: 2px solid #FFFF;
     background-image: url(../img/imagentienda1.jpg);
     background-size: cover;
@@ -82,10 +88,11 @@ main .tiendaContenedor {
       text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.705); }
   main .tiendaContenedor .tiendaImg2 {
     display: flex;
-    width: 1000px;
-    height: 200px;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    width: 1000px;
+    height: 200px;
     border: 2px solid #FFFF;
     background-image: url(../img/imagentienda1.jpg);
     background-size: cover;
@@ -102,16 +109,17 @@ main .novedades {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vW;
+  flex-direction: row;
+  width: 100%;
   height: 1000px;
   background-color: #000; }
   main .novedades .novedadesContenedor {
     display: flex;
-    flex-flow: row wrap;
-    width: 100vw;
-    height: 700px;
     justify-content: space-around;
     align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
     background-color: #464a4b93;
     position: relative; }
     main .novedades .novedadesContenedor h2 {
@@ -124,13 +132,13 @@ main .novedades {
       text-transform: uppercase; }
     main .novedades .novedadesContenedor div {
       display: flex;
-      flex-direction: column;
       justify-content: space-between;
       align-items: center;
-      background-color: #FFFF;
-      border: 1px solid #000000;
+      flex-direction: column;
       width: 200px;
       height: 300px;
+      background-color: #FFFF;
+      border: 1px solid #000000;
       box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
       -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -361,6 +369,10 @@ main .contenedorAccesorios {
     justify-items: center;
     align-items: center; }
     main .contenedorAccesorios .contenedorCardAcGrid div {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
       background-color: #FFFF;
       border: 1px solid #0000;
       width: 350px;
@@ -372,138 +384,34 @@ main .contenedorAccesorios {
       transition: 1s linear; }
       main .contenedorAccesorios .contenedorCardAcGrid div:hover {
         transform: scale(1.1); }
+      main .contenedorAccesorios .contenedorCardAcGrid div img {
+        width: 340;
+        height: 270px; }
+      main .contenedorAccesorios .contenedorCardAcGrid div h3 {
+        text-transform: uppercase;
+        font-size: 20px; }
+      main .contenedorAccesorios .contenedorCardAcGrid div p {
+        padding: 0 20px;
+        margin-bottom: 0; }
+      main .contenedorAccesorios .contenedorCardAcGrid div a {
+        padding: 4px 20px;
+        margin: 5px 0px;
+        background-color: #0275d8;
+        color: #FFFF;
+        border-radius: 8px;
+        text-decoration: none; }
     main .contenedorAccesorios .contenedorCardAcGrid .cardAc1 {
-      grid-column: 1/2;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc1 img {
-        width: 340px;
-        height: 270px; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc1 h3 {
-        text-transform: uppercase;
-        font-size: 20px; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc1 p {
-        padding: 0 20px;
-        margin-bottom: 0; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc1 a {
-        padding: 4px 20px;
-        margin: 5px 0px;
-        background-color: #0275d8;
-        color: #FFFF;
-        border-radius: 8px;
-        text-decoration: none; }
+      grid-column: 1/2; }
     main .contenedorAccesorios .contenedorCardAcGrid .cardAc2 {
-      grid-column: 2/3;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc2 img {
-        width: 340px;
-        height: 270px; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc2 h3 {
-        text-transform: uppercase;
-        font-size: 20px; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc2 p {
-        padding: 0 20px;
-        margin-bottom: 0; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc2 a {
-        padding: 4px 20px;
-        margin: 5px 0px;
-        background-color: #0275d8;
-        color: #FFFF;
-        border-radius: 8px;
-        text-decoration: none; }
+      grid-column: 2/3; }
     main .contenedorAccesorios .contenedorCardAcGrid .cardAc3 {
-      grid-column: 3/4;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc3 img {
-        width: 340px;
-        height: 270px; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc3 h3 {
-        text-transform: uppercase;
-        font-size: 20px; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc3 p {
-        padding: 0 20px;
-        margin-bottom: 0; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc3 a {
-        padding: 4px 20px;
-        margin: 5px 0px;
-        background-color: #0275d8;
-        color: #FFFF;
-        border-radius: 8px;
-        text-decoration: none; }
+      grid-column: 3/4; }
     main .contenedorAccesorios .contenedorCardAcGrid .cardAc4 {
-      grid-column: 1/2;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc4 img {
-        width: 340px;
-        height: 270px; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc4 h3 {
-        text-transform: uppercase;
-        font-size: 20px; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc4 p {
-        padding: 0 20px;
-        margin-bottom: 0; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc4 a {
-        padding: 4px 20px;
-        margin: 5px 0px;
-        background-color: #0275d8;
-        color: #FFFF;
-        border-radius: 8px;
-        text-decoration: none; }
+      grid-column: 1/2; }
     main .contenedorAccesorios .contenedorCardAcGrid .cardAc5 {
-      grid-column: 2/3;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc5 img {
-        width: 340px;
-        height: 270px; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc5 h3 {
-        text-transform: uppercase;
-        font-size: 20px; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc5 p {
-        padding: 0 20px;
-        margin-bottom: 0; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc5 a {
-        padding: 4px 20px;
-        margin: 5px 0px;
-        background-color: #0275d8;
-        color: #FFFF;
-        border-radius: 8px;
-        text-decoration: none; }
+      grid-column: 2/3; }
     main .contenedorAccesorios .contenedorCardAcGrid .cardAc6 {
-      grid-column: 3/4;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc6 img {
-        width: 340px;
-        height: 270px; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc6 h3 {
-        text-transform: uppercase;
-        font-size: 20px; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc6 p {
-        padding: 0 20px;
-        margin-bottom: 0; }
-      main .contenedorAccesorios .contenedorCardAcGrid .cardAc6 a {
-        padding: 4px 20px;
-        margin: 5px 0px;
-        background-color: #0275d8;
-        color: #FFFF;
-        border-radius: 8px;
-        text-decoration: none; }
+      grid-column: 3/4; }
 
 main .formulario {
   display: flex;
