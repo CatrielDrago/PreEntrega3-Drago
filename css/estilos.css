@@ -157,9 +157,9 @@ main .contenedorCardAdultos {
   width: 100%;
   height: 1400px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: #0000;
   background-image: linear-gradient(rgba(0, 0, 0, 0.856), rgba(0, 0, 0, 0.753)), url(../img/patronnovedades.jpg);
   background-repeat: no-repeat;
@@ -167,10 +167,11 @@ main .contenedorCardAdultos {
   position: relative; }
   main .contenedorCardAdultos .tituloCardA {
     display: flex;
-    width: 100%;
-    height: 100px;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
     position: absolute;
     top: 50px; }
     main .contenedorCardAdultos .tituloCardA h2 {
@@ -193,11 +194,11 @@ main .contenedorCardAdultos {
     align-items: center; }
     main .contenedorCardAdultos .contenedorCardAGrid div {
       display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
+      flex-direction: column;
       background-color: #FFFF;
-      border: 1px solid #000000;
+      border: 1px solid #0000;
       width: 350px;
       height: 430px;
       box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -207,141 +208,42 @@ main .contenedorCardAdultos {
       transition: 1s linear; }
       main .contenedorCardAdultos .contenedorCardAGrid div:hover {
         transform: scale(1.1); }
+      main .contenedorCardAdultos .contenedorCardAGrid div img {
+        width: 340px;
+        height: 270px; }
+      main .contenedorCardAdultos .contenedorCardAGrid div h3 {
+        text-transform: uppercase;
+        font-size: 20px; }
+      main .contenedorCardAdultos .contenedorCardAGrid div p {
+        padding: 0 20px;
+        margin-bottom: 0; }
+      main .contenedorCardAdultos .contenedorCardAGrid div a {
+        padding: 4px 20px;
+        margin: 5px 0px;
+        background-color: #0275d8;
+        color: #FFFF;
+        border-radius: 8px;
+        text-decoration: none; }
     main .contenedorCardAdultos .contenedorCardAGrid .cardA1 {
-      grid-column: 1/2;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA1 img {
-        width: 340px;
-        height: 270px; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA1 h3 {
-        text-transform: uppercase;
-        font-size: 20px; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA1 p {
-        padding: 0 20px;
-        margin-bottom: 0; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA1 a {
-        padding: 4px 20px;
-        margin: 5px 0px;
-        background-color: #0275d8;
-        color: #FFFF;
-        border-radius: 8px;
-        text-decoration: none; }
+      grid-column: 1/2; }
     main .contenedorCardAdultos .contenedorCardAGrid .cardA2 {
-      grid-column: 2/3;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA2 img {
-        width: 340px;
-        height: 270px; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA2 h3 {
-        text-transform: uppercase;
-        font-size: 20px; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA2 p {
-        padding: 0 20px;
-        margin-bottom: 0; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA2 a {
-        padding: 4px 20px;
-        margin: 5px 0px;
-        background-color: #0275d8;
-        color: #FFFF;
-        border-radius: 8px;
-        text-decoration: none; }
+      grid-column: 2/3; }
     main .contenedorCardAdultos .contenedorCardAGrid .cardA3 {
-      grid-column: 3/4;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA3 img {
-        width: 340px;
-        height: 270px; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA3 h3 {
-        text-transform: uppercase;
-        font-size: 20px; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA3 p {
-        padding: 0 20px;
-        margin-bottom: 0; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA3 a {
-        padding: 4px 20px;
-        margin: 5px 0px;
-        background-color: #0275d8;
-        color: #FFFF;
-        border-radius: 8px;
-        text-decoration: none; }
+      grid-column: 3/4; }
     main .contenedorCardAdultos .contenedorCardAGrid .cardA4 {
-      grid-column: 1/2;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA4 img {
-        width: 340px;
-        height: 270px; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA4 h3 {
-        text-transform: uppercase;
-        font-size: 20px; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA4 p {
-        padding: 0 20px;
-        margin-bottom: 0; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA4 a {
-        padding: 4px 20px;
-        margin: 5px 0px;
-        background-color: #0275d8;
-        color: #FFFF;
-        border-radius: 8px;
-        text-decoration: none; }
+      grid-column: 1/2; }
     main .contenedorCardAdultos .contenedorCardAGrid .cardA5 {
-      grid-column: 2/3;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA5 img {
-        width: 340px;
-        height: 270px; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA5 h3 {
-        text-transform: uppercase;
-        font-size: 20px; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA5 p {
-        padding: 0 20px;
-        margin-bottom: 0; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA5 a {
-        padding: 4px 20px;
-        margin: 5px 0px;
-        background-color: #0275d8;
-        color: #FFFF;
-        border-radius: 8px;
-        text-decoration: none; }
+      grid-column: 2/3; }
     main .contenedorCardAdultos .contenedorCardAGrid .cardA6 {
-      grid-column: 3/4;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA6 img {
-        width: 340px;
-        height: 270px; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA6 h3 {
-        text-transform: uppercase;
-        font-size: 20px; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA6 p {
-        padding: 0 20px;
-        margin-bottom: 0; }
-      main .contenedorCardAdultos .contenedorCardAGrid .cardA6 a {
-        padding: 4px 20px;
-        margin: 5px 0px;
-        background-color: #0275d8;
-        color: #FFFF;
-        border-radius: 8px;
-        text-decoration: none; }
+      grid-column: 3/4; }
 
 main .contenedorNinios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 100%;
   height: 1400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background-color: #0000;
   background-image: linear-gradient(rgba(0, 0, 0, 0.856), rgba(0, 0, 0, 0.753)), url(../img/patronnovedades.jpg);
   background-repeat: no-repeat;
@@ -349,10 +251,11 @@ main .contenedorNinios {
   position: relative; }
   main .contenedorNinios .tituloCardN {
     display: flex;
-    width: 100%;
-    height: 100px;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
     position: absolute;
     top: 50px; }
     main .contenedorNinios .tituloCardN h2 {
@@ -375,11 +278,11 @@ main .contenedorNinios {
     align-items: center; }
     main .contenedorNinios .contenedorCardNGrid div {
       display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
+      flex-direction: column;
       background-color: #FFFF;
-      border: 1px solid #000000;
+      border: 1px solid #0000;
       width: 350px;
       height: 430px;
       box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -389,141 +292,42 @@ main .contenedorNinios {
       transition: 1s linear; }
       main .contenedorNinios .contenedorCardNGrid div:hover {
         transform: scale(1.1); }
+      main .contenedorNinios .contenedorCardNGrid div img {
+        width: 340px;
+        height: 270px; }
+      main .contenedorNinios .contenedorCardNGrid div h3 {
+        text-transform: uppercase;
+        font-size: 20px; }
+      main .contenedorNinios .contenedorCardNGrid div p {
+        padding: 0 20px;
+        margin-bottom: 0; }
+      main .contenedorNinios .contenedorCardNGrid div a {
+        padding: 4px 20px;
+        margin: 5px 0px;
+        background-color: #0275d8;
+        color: #FFFF;
+        border-radius: 8px;
+        text-decoration: none; }
     main .contenedorNinios .contenedorCardNGrid .cardN1 {
-      grid-column: 1/2;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
-      main .contenedorNinios .contenedorCardNGrid .cardN1 img {
-        width: 340px;
-        height: 270px; }
-      main .contenedorNinios .contenedorCardNGrid .cardN1 h3 {
-        text-transform: uppercase;
-        font-size: 20px; }
-      main .contenedorNinios .contenedorCardNGrid .cardN1 p {
-        padding: 0 20px;
-        margin-bottom: 0; }
-      main .contenedorNinios .contenedorCardNGrid .cardN1 a {
-        padding: 4px 20px;
-        margin: 5px 0px;
-        background-color: #0275d8;
-        color: #FFFF;
-        border-radius: 8px;
-        text-decoration: none; }
+      grid-column: 1/2; }
     main .contenedorNinios .contenedorCardNGrid .cardN2 {
-      grid-column: 2/3;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
-      main .contenedorNinios .contenedorCardNGrid .cardN2 img {
-        width: 340px;
-        height: 270px; }
-      main .contenedorNinios .contenedorCardNGrid .cardN2 h3 {
-        text-transform: uppercase;
-        font-size: 20px; }
-      main .contenedorNinios .contenedorCardNGrid .cardN2 p {
-        padding: 0 20px;
-        margin-bottom: 0; }
-      main .contenedorNinios .contenedorCardNGrid .cardN2 a {
-        padding: 4px 20px;
-        margin: 5px 0px;
-        background-color: #0275d8;
-        color: #FFFF;
-        border-radius: 8px;
-        text-decoration: none; }
+      grid-column: 2/3; }
     main .contenedorNinios .contenedorCardNGrid .cardN3 {
-      grid-column: 3/4;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
-      main .contenedorNinios .contenedorCardNGrid .cardN3 img {
-        width: 340px;
-        height: 270px; }
-      main .contenedorNinios .contenedorCardNGrid .cardN3 h3 {
-        text-transform: uppercase;
-        font-size: 20px; }
-      main .contenedorNinios .contenedorCardNGrid .cardN3 p {
-        padding: 0 20px;
-        margin-bottom: 0; }
-      main .contenedorNinios .contenedorCardNGrid .cardN3 a {
-        padding: 4px 20px;
-        margin: 5px 0px;
-        background-color: #0275d8;
-        color: #FFFF;
-        border-radius: 8px;
-        text-decoration: none; }
+      grid-column: 3/4; }
     main .contenedorNinios .contenedorCardNGrid .cardN4 {
-      grid-column: 1/2;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
-      main .contenedorNinios .contenedorCardNGrid .cardN4 img {
-        width: 340px;
-        height: 270px; }
-      main .contenedorNinios .contenedorCardNGrid .cardN4 h3 {
-        text-transform: uppercase;
-        font-size: 20px; }
-      main .contenedorNinios .contenedorCardNGrid .cardN4 p {
-        padding: 0 20px;
-        margin-bottom: 0; }
-      main .contenedorNinios .contenedorCardNGrid .cardN4 a {
-        padding: 4px 20px;
-        margin: 5px 0px;
-        background-color: #0275d8;
-        color: #FFFF;
-        border-radius: 8px;
-        text-decoration: none; }
+      grid-column: 1/2; }
     main .contenedorNinios .contenedorCardNGrid .cardN5 {
-      grid-column: 2/3;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
-      main .contenedorNinios .contenedorCardNGrid .cardN5 img {
-        width: 340px;
-        height: 270px; }
-      main .contenedorNinios .contenedorCardNGrid .cardN5 h3 {
-        text-transform: uppercase;
-        font-size: 20px; }
-      main .contenedorNinios .contenedorCardNGrid .cardN5 p {
-        padding: 0 20px;
-        margin-bottom: 0; }
-      main .contenedorNinios .contenedorCardNGrid .cardN5 a {
-        padding: 4px 20px;
-        margin: 5px 0px;
-        background-color: #0275d8;
-        color: #FFFF;
-        border-radius: 8px;
-        text-decoration: none; }
+      grid-column: 2/3; }
     main .contenedorNinios .contenedorCardNGrid .cardN6 {
-      grid-column: 3/4;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center; }
-      main .contenedorNinios .contenedorCardNGrid .cardN6 img {
-        width: 340px;
-        height: 270px; }
-      main .contenedorNinios .contenedorCardNGrid .cardN6 h3 {
-        text-transform: uppercase;
-        font-size: 20px; }
-      main .contenedorNinios .contenedorCardNGrid .cardN6 p {
-        padding: 0 20px;
-        margin-bottom: 0; }
-      main .contenedorNinios .contenedorCardNGrid .cardN6 a {
-        padding: 4px 20px;
-        margin: 5px 0px;
-        background-color: #0275d8;
-        color: #FFFF;
-        border-radius: 8px;
-        text-decoration: none; }
+      grid-column: 3/4; }
 
 main .contenedorAccesorios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 100%;
   height: 1400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background-color: #0000;
   background-image: linear-gradient(rgba(0, 0, 0, 0.856), rgba(0, 0, 0, 0.753)), url(../img/patronnovedades.jpg);
   background-repeat: no-repeat;
@@ -531,10 +335,11 @@ main .contenedorAccesorios {
   position: relative; }
   main .contenedorAccesorios .tituloCardAc {
     display: flex;
-    width: 100%;
-    height: 100px;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
     position: absolute;
     top: 50px; }
     main .contenedorAccesorios .tituloCardAc h2 {
@@ -556,12 +361,8 @@ main .contenedorAccesorios {
     justify-items: center;
     align-items: center; }
     main .contenedorAccesorios .contenedorCardAcGrid div {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
       background-color: #FFFF;
-      border: 1px solid #000000;
+      border: 1px solid #0000;
       width: 350px;
       height: 430px;
       box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -595,6 +396,7 @@ main .contenedorAccesorios {
         text-decoration: none; }
     main .contenedorAccesorios .contenedorCardAcGrid .cardAc2 {
       grid-column: 2/3;
+      display: flex;
       flex-direction: column;
       justify-content: space-around;
       align-items: center; }
@@ -616,6 +418,7 @@ main .contenedorAccesorios {
         text-decoration: none; }
     main .contenedorAccesorios .contenedorCardAcGrid .cardAc3 {
       grid-column: 3/4;
+      display: flex;
       flex-direction: column;
       justify-content: space-around;
       align-items: center; }
@@ -637,6 +440,7 @@ main .contenedorAccesorios {
         text-decoration: none; }
     main .contenedorAccesorios .contenedorCardAcGrid .cardAc4 {
       grid-column: 1/2;
+      display: flex;
       flex-direction: column;
       justify-content: space-around;
       align-items: center; }
@@ -658,6 +462,7 @@ main .contenedorAccesorios {
         text-decoration: none; }
     main .contenedorAccesorios .contenedorCardAcGrid .cardAc5 {
       grid-column: 2/3;
+      display: flex;
       flex-direction: column;
       justify-content: space-around;
       align-items: center; }
@@ -679,6 +484,7 @@ main .contenedorAccesorios {
         text-decoration: none; }
     main .contenedorAccesorios .contenedorCardAcGrid .cardAc6 {
       grid-column: 3/4;
+      display: flex;
       flex-direction: column;
       justify-content: space-around;
       align-items: center; }
@@ -1069,101 +875,26 @@ footer .derechosReservados {
   main .contenedorCardAdultos .contenedorCardAGrid div {
     width: 300px;
     height: 400px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA1 img {
+  main .contenedorCardAdultos .contenedorCardAGrid div img {
     width: 295px;
     height: 240px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA2 img {
-    width: 295px;
-    height: 240px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA3 img {
-    width: 295px;
-    height: 240px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA4 img {
-    width: 295px;
-    height: 240px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA5 img {
-    width: 295px;
-    height: 240px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA6 img {
-    width: 295px;
-    height: 240px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA1 p {
-    font-size: 12px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA2 p {
-    font-size: 12px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA3 p {
-    font-size: 12px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA4 p {
-    font-size: 12px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA5 p {
-    font-size: 12px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA6 p {
+  main .contenedorCardAdultos .contenedorCardAGrid div p {
     font-size: 12px; }
   main .contenedorNinios .contenedorCardNGrid div {
     width: 300px;
     height: 400px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN1 img {
+  main .contenedorNinios .contenedorCardNGrid div img {
     width: 295px;
     height: 240px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN2 img {
-    width: 295px;
-    height: 240px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN3 img {
-    width: 295px;
-    height: 240px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN4 img {
-    width: 295px;
-    height: 240px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN5 img {
-    width: 295px;
-    height: 240px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN6 img {
-    width: 295px;
-    height: 240px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN1 p {
-    font-size: 12px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN2 p {
-    font-size: 12px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN3 p {
-    font-size: 12px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN4 p {
-    font-size: 12px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN5 p {
-    font-size: 12px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN6 p {
+  main .contenedorNinios .contenedorCardNGrid div p {
     font-size: 12px; }
   main .contenedorAccesorios .contenedorCardAcGrid div {
     width: 300px;
     height: 400px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc1 img {
+  main .contenedorAccesorios .contenedorCardAcGrid div img {
     width: 295px;
     height: 240px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc2 img {
-    width: 295px;
-    height: 240px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc3 img {
-    width: 295px;
-    height: 240px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc4 img {
-    width: 295px;
-    height: 240px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc5 img {
-    width: 295px;
-    height: 240px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc6 img {
-    width: 295px;
-    height: 240px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc1 p {
-    font-size: 12px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc2 p {
-    font-size: 12px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc3 p {
-    font-size: 12px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc4 p {
-    font-size: 12px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc5 p {
-    font-size: 12px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc6 p {
+  main .contenedorAccesorios .contenedorCardAcGrid div p {
     font-size: 12px; }
   footer .contenedorFooter .contenedorMapa iframe {
     width: 340px;
@@ -1238,64 +969,19 @@ footer .derechosReservados {
   main .contenedorCardAdultos .contenedorCardAGrid div {
     width: 250px;
     height: 400px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA1 img {
-    width: 245px;
-    height: 240px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA2 img {
-    width: 245px;
-    height: 240px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA3 img {
-    width: 245px;
-    height: 240px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA4 img {
-    width: 245px;
-    height: 240px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA5 img {
-    width: 245px;
-    height: 240px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA6 img {
+  main .contenedorCardAdultos .contenedorCardAGrid div img {
     width: 245px;
     height: 240px; }
   main .contenedorNinios .contenedorCardNGrid div {
     width: 250px;
     height: 400px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN1 img {
-    width: 245px;
-    height: 240px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN2 img {
-    width: 245px;
-    height: 240px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN3 img {
-    width: 245px;
-    height: 240px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN4 img {
-    width: 245px;
-    height: 240px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN5 img {
-    width: 245px;
-    height: 240px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN6 img {
+  main .contenedorNinios .contenedorCardNGrid div img {
     width: 245px;
     height: 240px; }
   main .contenedorAccesorios .contenedorCardAcGrid div {
     width: 250px;
     height: 400px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc1 img {
-    width: 245px;
-    height: 240px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc2 img {
-    width: 245px;
-    height: 240px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc3 img {
-    width: 245px;
-    height: 240px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc4 img {
-    width: 245px;
-    height: 240px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc5 img {
-    width: 245px;
-    height: 240px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc6 img {
+  main .contenedorAccesorios .contenedorCardAcGrid div img {
     width: 245px;
     height: 240px; } }
 
@@ -1325,64 +1011,19 @@ footer .derechosReservados {
   main .contenedorCardAdultos .contenedorCardAGrid div {
     width: 200px;
     height: 350px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA1 img {
-    width: 198px;
-    height: 185px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA2 img {
-    width: 198px;
-    height: 185px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA3 img {
-    width: 198px;
-    height: 185px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA4 img {
-    width: 198px;
-    height: 185px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA5 img {
-    width: 198px;
-    height: 185px; }
-  main .contenedorCardAdultos .contenedorCardAGrid .cardA6 img {
+  main .contenedorCardAdultos .contenedorCardAGrid div img {
     width: 198px;
     height: 185px; }
   main .contenedorNinios .contenedorCardNGrid div {
     width: 200px;
     height: 350px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN1 img {
-    width: 198px;
-    height: 185px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN2 img {
-    width: 198px;
-    height: 185px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN3 img {
-    width: 198px;
-    height: 185px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN4 img {
-    width: 198px;
-    height: 185px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN5 img {
-    width: 198px;
-    height: 185px; }
-  main .contenedorNinios .contenedorCardNGrid .cardN6 img {
+  main .contenedorNinios .contenedorCardNGrid div img {
     width: 198px;
     height: 185px; }
   main .contenedorAccesorios .contenedorCardAcGrid div {
     width: 200px;
     height: 350px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc1 img {
-    width: 198px;
-    height: 185px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc2 img {
-    width: 198px;
-    height: 185px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc3 img {
-    width: 198px;
-    height: 185px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc4 img {
-    width: 198px;
-    height: 185px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc5 img {
-    width: 198px;
-    height: 185px; }
-  main .contenedorAccesorios .contenedorCardAcGrid .cardAc6 img {
+  main .contenedorAccesorios .contenedorCardAcGrid div img {
     width: 198px;
     height: 185px; }
   main .formulario .formularioPresentacion .formularioPresentacionImg {
