@@ -118,6 +118,7 @@ main .novedades {
     flex-direction: row;
     width: 100%;
     height: 700px;
+    flex-wrap: wrap;
     background-color: #464a4b93;
     position: relative; }
     main .novedades .novedadesContenedor h2 {
@@ -158,6 +159,23 @@ main .novedades {
         color: #FFFF;
         border-radius: 8px;
         text-decoration: none; }
+
+main .anuncioDeEstacionInvierno {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.233), rgba(3, 0, 0, 0.137)), url(../img/Invierno.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-bottom: 1px solid #FFFF; }
+  main .anuncioDeEstacionInvierno .contenedorAnuncioDeEstacionInvierno h1 {
+    font-size: 56px;
+    color: #FFFF;
+    text-transform: uppercase; }
 
 main .contenedorCardAdultos {
   width: 100%;
@@ -242,6 +260,23 @@ main .contenedorCardAdultos {
       grid-column: 2/3; }
     main .contenedorCardAdultos .contenedorCardAGrid .cardA6 {
       grid-column: 3/4; }
+
+main .anuncioDeEstacionVerano {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.233), rgba(3, 0, 0, 0.137)), url(../img/verano.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-bottom: 1px solid #FFFF; }
+  main .anuncioDeEstacionVerano .contenedorAnuncioDeEstacionVerano h1 {
+    font-size: 56px;
+    color: #FFFF;
+    text-transform: uppercase; }
 
 main .contenedorNinios {
   display: flex;

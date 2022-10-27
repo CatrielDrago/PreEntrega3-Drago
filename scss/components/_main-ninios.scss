@@ -1,4 +1,20 @@
 main{
+    .anuncioDeEstacionVerano{
+        @include flex (flex, center, center,row);
+        @include tamanio (100%, calc(100vh - 100px));
+        background-image:linear-gradient( rgba(0, 0, 0, 0.233), rgba(3, 0, 0, 0.137)), url(../img/verano.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        border-bottom: 1px solid $color-secundario;
+        .contenedorAnuncioDeEstacionVerano{
+            h1{
+                font-size: 56px;
+                color: $color-secundario;
+                text-transform: uppercase;
+            }
+        }
+    }
     .contenedorNinios{
         @include flex (flex, center, center, column);
         @include tamanio (100%, 1400px);

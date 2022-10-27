@@ -89,9 +89,11 @@ main{
         @include flex (flex, center, center, row);
         @include tamanio (100%, 1000px);
         background-color:  #000;
+
         .novedadesContenedor{
             @include flex (flex, space-around, center, row);
             @include tamanio (100%, 700px);
+            flex-wrap: wrap;
             background-color: $color-Terciario;
             position: relative;
             h2{
