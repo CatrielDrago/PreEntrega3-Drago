@@ -362,6 +362,23 @@ main .contenedorNinios {
     main .contenedorNinios .contenedorCardNGrid .cardN6 {
       grid-column: 3/4; }
 
+main .anuncioDeAccesorios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.644), rgba(3, 0, 0, 0.404)), url(../img/accesorios.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-bottom: 1px solid #FFFF; }
+  main .anuncioDeAccesorios .contenedorAnuncioDeAccesorios h1 {
+    font-size: 56px;
+    color: #FFFF;
+    text-transform: uppercase; }
+
 main .contenedorAccesorios {
   display: flex;
   justify-content: center;
