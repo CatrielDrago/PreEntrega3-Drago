@@ -151,7 +151,8 @@ main .novedades {
         border-bottom: 1px solid #000; }
       main .novedades .novedadesContenedor div h3 {
         text-transform: uppercase;
-        font-size: 16px; }
+        font-size: 16px;
+        color: #0275d8; }
       main .novedades .novedadesContenedor div a {
         padding: 5px 5px;
         margin-bottom: 5px;
@@ -237,7 +238,8 @@ main .contenedorCardAdultos {
         height: 270px; }
       main .contenedorCardAdultos .contenedorCardAGrid div h3 {
         text-transform: uppercase;
-        font-size: 16px; }
+        font-size: 16px;
+        color: #0275d8; }
       main .contenedorCardAdultos .contenedorCardAGrid div p {
         padding: 0 20px;
         margin-bottom: 0; }
@@ -341,7 +343,8 @@ main .contenedorNinios {
         font-size: 16px; }
       main .contenedorNinios .contenedorCardNGrid div p {
         padding: 0 20px;
-        margin-bottom: 0; }
+        margin-bottom: 0;
+        color: #0275d8; }
       main .contenedorNinios .contenedorCardNGrid div a {
         padding: 4px 20px;
         margin: 5px 0px;
@@ -442,7 +445,8 @@ main .contenedorAccesorios {
         font-size: 20px; }
       main .contenedorAccesorios .contenedorCardAcGrid div p {
         padding: 0 20px;
-        margin-bottom: 0; }
+        margin-bottom: 0;
+        color: #0275d8; }
       main .contenedorAccesorios .contenedorCardAcGrid div a {
         padding: 4px 20px;
         margin: 5px 0px;
