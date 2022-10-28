@@ -167,7 +167,7 @@ main .anuncioDeEstacionInvierno {
   flex-direction: row;
   width: 100%;
   height: calc(100vh - 100px);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.233), rgba(3, 0, 0, 0.137)), url(../img/Invierno.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.233), rgba(3, 0, 0, 0.137)), url(../img/invierno.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
