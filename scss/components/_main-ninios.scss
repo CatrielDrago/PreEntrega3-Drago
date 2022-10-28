@@ -62,16 +62,17 @@ main{
                     transform: scale(1.1);
                 }
                 img{
-                    @include tamanio (340px, 270px);
+                    @include tamanio (340px, 60%);
                 }
                 h3{
                     text-transform: uppercase;
                     font-size: 16px;
+                    color: $color-principal;
                 }
                 p{
                     padding: 0 20px;
                     margin-bottom: 0;
-                    color: $color-principal;
+
                 }
                 a{
                     padding: 4px 20px;

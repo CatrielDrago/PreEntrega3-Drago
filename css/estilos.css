@@ -337,14 +337,14 @@ main .contenedorNinios {
         transform: scale(1.1); }
       main .contenedorNinios .contenedorCardNGrid div img {
         width: 340px;
-        height: 270px; }
+        height: 60%; }
       main .contenedorNinios .contenedorCardNGrid div h3 {
         text-transform: uppercase;
-        font-size: 16px; }
+        font-size: 16px;
+        color: #0275d8; }
       main .contenedorNinios .contenedorCardNGrid div p {
         padding: 0 20px;
-        margin-bottom: 0;
-        color: #0275d8; }
+        margin-bottom: 0; }
       main .contenedorNinios .contenedorCardNGrid div a {
         padding: 4px 20px;
         margin: 5px 0px;
@@ -438,22 +438,26 @@ main .contenedorAccesorios {
       main .contenedorAccesorios .contenedorCardAcGrid div:hover {
         transform: scale(1.1); }
       main .contenedorAccesorios .contenedorCardAcGrid div img {
-        width: 340;
-        height: 270px; }
+        width: 340px;
+        height: 60%; }
       main .contenedorAccesorios .contenedorCardAcGrid div h3 {
         text-transform: uppercase;
-        font-size: 20px; }
+        font-size: 20px;
+        color: #0275d8;
+        height: 5%;
+        margin: 5px 0px; }
       main .contenedorAccesorios .contenedorCardAcGrid div p {
         padding: 0 20px;
         margin-bottom: 0;
-        color: #0275d8; }
+        height: 25%; }
       main .contenedorAccesorios .contenedorCardAcGrid div a {
         padding: 4px 20px;
         margin: 5px 0px;
         background-color: #0275d8;
         color: #FFFF;
         border-radius: 8px;
-        text-decoration: none; }
+        text-decoration: none;
+        height: 10%; }
     main .contenedorAccesorios .contenedorCardAcGrid .cardAc1 {
       grid-column: 1/2; }
     main .contenedorAccesorios .contenedorCardAcGrid .cardAc2 {
@@ -994,10 +998,16 @@ footer .derechosReservados {
     width: 200px;
     height: 350px; }
   main .contenedorNinios .contenedorCardNGrid div h3 {
-    font-size: 10px; }
+    font-size: 10px;
+    height: 5%;
+    margin: 5px 0px; }
+  main .contenedorNinios .contenedorCardNGrid div p {
+    height: 25%; }
   main .contenedorNinios .contenedorCardNGrid div img {
     width: 198px;
-    height: 185px; }
+    height: 60%; }
+  main .contenedorNinios .contenedorCardNGrid div a {
+    height: 10%; }
   main .contenedorAccesorios .contenedorCardAcGrid div {
     width: 200px;
     height: 350px; }
