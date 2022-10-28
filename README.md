@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Catriel Drago</h1>
 <h3 align="center">A passionate frontend developer from Argentina</h3>
 
-- 🔭 I’m currently working on **PreEntrega2**
+- 🔭 I’m currently working on **PreEntrega3**
 
 - 🌱 I’m currently learning **Html,Css,JavaScript**
 
