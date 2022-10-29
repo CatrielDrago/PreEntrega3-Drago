@@ -57,6 +57,8 @@ main .hero {
           text-transform: uppercase;
           border-radius: 8px;
           text-decoration: none; }
+  main .hero .animate__animated.animate__backInDown {
+    --animate-duration: 2s; }
 
 main .tiendaContenedor {
   display: flex;

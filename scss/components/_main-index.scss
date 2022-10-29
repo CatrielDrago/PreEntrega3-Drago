@@ -47,6 +47,9 @@ main{
                 }
             }
         }
+        .animate__animated.animate__backInDown{
+            --animate-duration: 2s;
+        }
     }
     .tiendaContenedor{
         @include flex (flex, space-around, center, column);
