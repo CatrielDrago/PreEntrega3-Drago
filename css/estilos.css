@@ -10,6 +10,9 @@ header .navbar {
   header .navbar .container-fluid .navbar-toggler:focus {
     box-shadow: none; }
 
+.animate__animated.animate__backInDown {
+  --animate-duration: 2s; }
+
 main .hero {
   display: flex;
   justify-content: center;
@@ -55,8 +58,6 @@ main .hero {
           text-transform: uppercase;
           border-radius: 8px;
           text-decoration: none; }
-  main .hero .animate__animated.animate__backInDown {
-    --animate-duration: 2s; }
 
 main .tiendaContenedor {
   display: flex;

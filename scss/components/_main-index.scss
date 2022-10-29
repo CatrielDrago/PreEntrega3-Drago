@@ -1,4 +1,9 @@
 @import "../base/variables";
+
+.animate__animated.animate__backInDown{
+    --animate-duration: 2s;
+}
+
 main{
     .hero{
         @include flex (flex, center, center,row);
@@ -43,9 +48,6 @@ main{
                     }
                 }
             }
-        }
-        .animate__animated.animate__backInDown{
-            --animate-duration: 2s;
         }
     }
     .tiendaContenedor{
