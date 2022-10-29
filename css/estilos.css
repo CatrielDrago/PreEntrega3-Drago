@@ -21,8 +21,6 @@ main .hero {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
-  main .hero .animate__animated.animate__backInDown {
-    --animate-duration: 2s; }
   main .hero .heroContenedor {
     display: flex;
     justify-content: center;

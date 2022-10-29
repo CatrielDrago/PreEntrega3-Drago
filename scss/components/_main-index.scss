@@ -7,9 +7,6 @@ main{
         background-size:cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        .animate__animated.animate__backInDown{
-            --animate-duration: 2s;
-        }
         .heroContenedor{
             @include flex (flex, center, center, column);
             @include tamanio (100%, 557px);
