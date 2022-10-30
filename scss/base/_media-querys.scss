@@ -1,3 +1,5 @@
+@import "./variables";
+
 @media screen and (max-width: 1090px){
     main .hero .heroContenedor .heroImg a img{
         height: 285px;
@@ -186,12 +188,10 @@ footer .contenedorFooter .contenedorMapa{
     } 
     
     main .formulario .formularioPresentacion .formularioPresentacionImg{
-        width: 250px;
-        height: 250px;
+        @include tamanio (250px, 250px);
     }
     main .formulario .formularioPresentacion .formularioPresentacionImg img{
-        width:200px;
-        height: 200px;
+        @include tamanio (200px, 200px);
     }
 
     main .formulario .formularioPresentacion .formularioPresentacionRedes{
@@ -205,24 +205,19 @@ footer .contenedorFooter .contenedorMapa{
 
     main .formulario .formularioPresentacion .formularioPresentacionRedes .formularioPresentacionRedesIconos{
         width: 280px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flex (flex, center, center, column);
     }
 
     main .formulario .formularioPresentacion .formularioPresentacionRedes .formularioPresentacionRedesIconos a img{
-        width: 44px;
-        height: 44px;
+        @include tamanio (44px, 44px);
     }
 
     main .contenedorCardAdultos .contenedorCardAGrid div{
-        width: 300px;
-        height: 400px;
+        @include tamanio (300px, 400px);
     }
 
     main .contenedorCardAdultos .contenedorCardAGrid div img{
-        width: 295px;
-        height: 240px;
+        @include tamanio (295px, 240px);
     }
     
     main .contenedorCardAdultos .contenedorCardAGrid div p{
@@ -230,13 +225,11 @@ footer .contenedorFooter .contenedorMapa{
     }
 
     main .contenedorNinios .contenedorCardNGrid div{
-        width: 300px;
-        height: 400px;
+        @include tamanio (300px, 400px);
     }
 
     main .contenedorNinios .contenedorCardNGrid div img{
-        width: 295px;
-        height: 240px;
+        @include tamanio (295px, 240px);
     }
     
     main .contenedorNinios .contenedorCardNGrid div p{
@@ -244,13 +237,11 @@ footer .contenedorFooter .contenedorMapa{
     }
 
     main .contenedorAccesorios .contenedorCardAcGrid div{
-        width: 300px;
-        height: 400px;
+        @include tamanio (300px, 400px);
     }
 
     main .contenedorAccesorios .contenedorCardAcGrid div img{
-        width: 295px;
-        height: 240px;
+        @include tamanio (295px, 240px);
     }
     
     main .contenedorAccesorios .contenedorCardAcGrid div p{
@@ -258,8 +249,7 @@ footer .contenedorFooter .contenedorMapa{
     }
 
     footer .contenedorFooter .contenedorMapa iframe{
-        width: 340px;
-        height: 200px;
+        @include tamanio (340px, 200px);
     }
 
     footer .contenedorFooter .contenedorRedesNew{
@@ -299,8 +289,7 @@ footer .contenedorFooter .contenedorMapa{
     }
 
     footer .contenedorFooter .contenedorMapa iframe{
-        width: 280px;
-        height: 200px;
+        @include tamanio (280px, 200px);
     }
 
     footer .contenedorFooter .contenedorMapa h2{
@@ -330,12 +319,10 @@ footer .contenedorFooter .contenedorMapa{
     } 
     
     main .formulario .formularioPresentacion .formularioPresentacionImg{
-        width: 250px;
-        height: 250px;
+        @include tamanio (250px, 250px);
     }
     main .formulario .formularioPresentacion .formularioPresentacionImg img{
-        width:200px;
-        height: 200px;
+        @include tamanio (200px, 200px);
     }
 
     main .formulario .formularioPresentacion .formularioPresentacionRedes{
@@ -349,16 +336,12 @@ footer .contenedorFooter .contenedorMapa{
     }
 
     main .formulario .formularioPresentacion .formularioPresentacionRedes .formularioPresentacionRedesIconos{
-        width: 200px;
-        height: 100px;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        @include flex (flex, center, center, row);
+        @include tamanio (200px, 100px);
     }
 
     main .formulario .formularioPresentacion .formularioPresentacionRedes .formularioPresentacionRedesIconos a img{
-        width: 44px;
-        height: 44px;
+        @include tamanio (44px, 44px);
     }
 
     main .formulario .formularioContenedor{
@@ -366,36 +349,30 @@ footer .contenedorFooter .contenedorMapa{
     }
 
     footer .contenedorFooter{
-        height: 800px;
-        width: 100%;
+        @include tamanio (100%, 800px);
         flex-direction: column;
     }
 }
 
 @media screen and (max-width: 650px){
     main .contenedorCardAdultos .contenedorCardAGrid div{
-        width: 250px;
-        height: 400px;
+        @include tamanio (250px, 400px);
     }
 
     main .contenedorCardAdultos .contenedorCardAGrid div img{
-        width:245px;
-        height:240px
+        @include tamanio (245px, 240px);
     }
 
     main .contenedorNinios .contenedorCardNGrid div{
-        width: 250px;
-        height: 400px;
+        @include tamanio (250px, 400px);
     }
 
     main .contenedorNinios .contenedorCardNGrid div img{
-        width:245px;
-        height:240px
+        @include tamanio (245px, 240px);
     }
 
     main .contenedorAccesorios .contenedorCardAcGrid div{
-        width: 250px;
-        height: 400px;
+        @include tamanio (250px, 400px);
     }
 
     main .contenedorAccesorios .contenedorCardAcGrid div h3{
@@ -403,8 +380,7 @@ footer .contenedorFooter .contenedorMapa{
     }
 
     main .contenedorAccesorios .contenedorCardAcGrid div img{
-        width:245px;
-        height:240px
+        @include tamanio (245px, 240px);
     }
 }
 
@@ -445,8 +421,7 @@ footer .contenedorFooter .contenedorMapa{
 
 @media screen and (max-width: 550px){
     main .contenedorCardAdultos .contenedorCardAGrid div{
-        width: 200px;
-        height: 350px;
+        @include tamanio (200px, 350px);
     }
 
     main .contenedorCardAdultos .contenedorCardAGrid div h3{
@@ -454,13 +429,11 @@ footer .contenedorFooter .contenedorMapa{
     }
 
     main .contenedorCardAdultos .contenedorCardAGrid div img{
-        width: 198px;
-        height: 185px;
+        @include tamanio (198px, 185px);
     }
 
     main .contenedorNinios .contenedorCardNGrid div{
-        width: 200px;
-        height: 350px;
+        @include tamanio (200px, 350px);
     }
 
     main .contenedorNinios .contenedorCardNGrid div h3{
@@ -474,8 +447,7 @@ footer .contenedorFooter .contenedorMapa{
     }
 
     main .contenedorNinios .contenedorCardNGrid div img{
-        width: 198px;
-        height: 60%;
+        @include tamanio (198px, 60%);
     }
 
     main .contenedorNinios .contenedorCardNGrid div a{
@@ -483,8 +455,7 @@ footer .contenedorFooter .contenedorMapa{
     }
     
     main .contenedorAccesorios .contenedorCardAcGrid div{
-        width: 200px;
-        height: 350px;
+        @include tamanio (200px, 350px);
     }
 
     main .contenedorAccesorios .contenedorCardAcGrid div h3{
@@ -492,17 +463,14 @@ footer .contenedorFooter .contenedorMapa{
     }
 
     main .contenedorAccesorios .contenedorCardAcGrid div img{
-        width: 198px;
-        height: 200px;
+        @include tamanio (198px, 200px);
     }
 
     main .formulario .formularioPresentacion .formularioPresentacionImg{
-        width: 200px;
-        height: 200px;
+        @include tamanio (200px, 200px);
     }
     main .formulario .formularioPresentacion .formularioPresentacionImg  img{
-        width: 150px;
-        height: 150px;
+        @include tamanio (150px, 150px);
     }
 
     footer .contenedorFooter .contenedorMapa{
@@ -523,8 +491,7 @@ footer .contenedorFooter .contenedorMapa{
     }
     
     main .tiendaContenedor .tiendaImg1{
-        width: 50%;
-        height: 480px;
+        @include tamanio (50%, 480px);
     }
 
     main .tiendaContenedor .tiendaImg1 h2{
@@ -532,6 +499,7 @@ footer .contenedorFooter .contenedorMapa{
     }
 
     main .tiendaContenedor .tiendaImg2{
+        @include tamanio (50%, 480px);
         width: 50%;
         height: 480px;
     }
@@ -681,18 +649,14 @@ footer .contenedorFooter .contenedorMapa{
     }
 
     main .formulario .formularioPresentacion {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flex (flex, center, center, column);
     }
 
     main .formulario .formularioPresentacion .formularioPresentacionImg{
-        width: 140px;
-        height: 140px;
+        @include tamanio (140px, 140px);
     }
     main .formulario .formularioPresentacion .formularioPresentacionImg img{
-        width: 100px;
-        height: 120px;
+        @include tamanio (100px, 120px);
     }
 
     main .formulario .formularioPresentacion .formularioPresentacionRedes{
@@ -705,13 +669,11 @@ footer .contenedorFooter .contenedorMapa{
     }
 
     main .formulario .formularioPresentacion .formularioPresentacionRedes .formularioPresentacionRedesIconos{
-        width: 150px;
-        height: 64px;
+        @include tamanio (150px, 64px);
     }
 
     main .formulario .formularioPresentacion .formularioPresentacionRedes .formularioPresentacionRedesIconos a img{
-        width: 34px;
-        height: 34px;
+        @include tamanio (34px, 34px);
     }
     
     main .formulario .formularioPresentacion .formularioPresentacionRedes .formularioPresentacionRedesIconos a{
@@ -725,8 +687,7 @@ footer .contenedorFooter .contenedorMapa{
     }
     
     main .formulario .formularioContenedor form .formularioNAE input{
-        width: 200px;
-        height: 25px;
+        @include tamanio (200px, 25px);
     }
 
     main .formulario .formularioContenedor form .formularioSexo{
